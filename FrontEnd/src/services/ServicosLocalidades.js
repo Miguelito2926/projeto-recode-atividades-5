@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const LOCALIDADES_API_URL = "http://localhost:8080/localidades";
+const LOCALIDADES_API_URL = "https://florent-viagens.herokuapp.com/localidades";
 
 class ServicosLocalidades {
 
