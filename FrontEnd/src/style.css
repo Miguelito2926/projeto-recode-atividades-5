@@ -1,0 +1,75 @@
+main {
+  min-height: calc(100vh - 70px);
+  position: relative;
+}
+
+Link{
+  color:  rgb(66, 66, 219);
+}
+
+main section {
+  padding-bottom: 30px;
+  min-height: 30vh;
+}
+
+.header {
+  height: 150px;
+  background-color:rgb(192, 192, 238) ;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  align-items: flex-end;
+  color: rgb(66, 66, 219);
+}
+
+.resposta {
+  padding: 10px;
+  font-size: 20px;
+  background:  rgb(66, 66, 219);
+  border-radius: 10px;
+  color: white;
+  box-shadow: 2px 2px 8px black;
+}
+
+footer {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  color: rgb(66, 66, 219);
+}
+
+footer img {
+  height: 30px; 
+}
+
+.flex-container {
+  display: flex; padding:40px;line-height: 1.44;text-align: justify; font-size:15px; padding-top: 10px; color:  rgb(66, 66, 219);;
+}
+
+.hprincipal{
+  padding-top: 30px;text-shadow:0px 5px 20px  rgb(66, 66, 219);;text-align: center; color:  rgb(66, 66, 219);;
+}
+
+h2{
+  font-size:larger; padding-left:20px;padding: 40px; color: rgb(66, 66, 219); ;
+}
+
+.text-dark{
+  color:rgb(66, 66, 219) !important ;
+}
+
+.text-primary{
+  color:rgb(66, 66, 219) !important ;
+}
+.btn-outline-primary{
+  color:rgb(66, 66, 219) !important ;
+}
+
+#contato {
+  color: rgb(66, 66, 219); font-size: 30px; text-align: center;margin-top: 5%; position: relative; 
+}  
+
+
+.imgcontato{
+  padding-top: 150px;
+}
