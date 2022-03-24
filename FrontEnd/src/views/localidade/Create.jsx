@@ -17,11 +17,11 @@ export default function Create() {
     const localidades = {origem, destino, data, preco};
 
     if (id) {
-      ServicosLocalidades.updateLocalidade(id, localidades).then((response) => {
+      ServicosLocalidades.updateLocalidades(id, localidades).then((response) => {
         navigate("/Localidades");
       });
     } else {
-      ServicosLocalidades.createLocalidade(localidades).then((response) => {
+      ServicosLocalidades.createLocalidades(localidades).then((response) => {
         navigate("/Localidades");
       });
     }
